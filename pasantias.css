@@ -1,0 +1,62 @@
+body {
+    background-image: url('color.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Glegoo', sans-serif;
+    background-color: #9dcf41;
+}
+
+.countdown {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Glegoo', sans-serif; /* Aplica la fuente Glegoo a la cuenta regresiva */
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.countdown {
+    font-size: 36px;
+    font-weight: bold;
+}

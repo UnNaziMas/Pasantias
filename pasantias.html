@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj de Cuenta Regresiva</title>
+    <link rel="stylesheet" href="pasantias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Reloj de Cuenta Regresiva</h1>
+        <div class="input-container">
+            <label for="fecha">Elige una fecha y hora:</label>
+            <input type="datetime-local" id="fecha" required>
+            <button onclick="empezarCuentaRegresiva()">Empezar Cuenta Regresiva</button>
+        </div>
+        <div class="countdown" id="countdown"></div>
+    </div>
+    <script src="pasantias.js"></script>
+</body>
+</html>
