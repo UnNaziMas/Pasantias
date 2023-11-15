@@ -6,6 +6,8 @@
     <title>Reloj de Cuenta Regresiva</title>
     <link rel="stylesheet" href="pasantias.css">
     <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -16,6 +18,10 @@
             <button onclick="empezarCuentaRegresiva()">Empezar Cuenta Regresiva</button>
         </div>
         <div class="countdown" id="countdown"></div>
+        <canvas id="pieChart" width="200" height="200"></canvas>
+
+        <!-- Agregar el elemento de audio para reproducir música al finalizar -->
+        <audio id="audio" src="ar.mp3"></audio>
     </div>
     <script src="pasantias.js"></script>
 </body>

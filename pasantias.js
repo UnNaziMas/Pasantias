@@ -39,6 +39,8 @@ function actualizarCuentaRegresiva() {
     if (tiempoRestante < 0) {
         clearInterval(intervalo); // Detener el intervalo
         document.getElementById("countdown").innerHTML = "¡Tiempo terminado!"; // Mostrar mensaje
+        // Reproducir la música al finalizar
+        document.getElementById("audio").play();
         return;
     }
 
